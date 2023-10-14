@@ -4,16 +4,16 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
 `;
 
 export const Button = styled.button`
   width: 100px;
   font-size: 20px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 4px;
+  border-radius: 4px;
   border: none;
-  box-shadow: 0 1px 7px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3);
 
   &:hover,
   &:focus {
